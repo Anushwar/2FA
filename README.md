@@ -9,8 +9,9 @@
 To run this project, clone the repository and run the following commands in the 
 
 ```bash
-pipenv shell
-pipenv install django
+virtualenv env
+source env/bin/activate
+pip install -r requirements.txt
 cd src
 python manage.py makemigrations
 python manage.py migrate
