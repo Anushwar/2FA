@@ -6,7 +6,7 @@
 
 ### How to run:
 
-To run this project, clone the repository and run the following commands in the 
+To run this project, clone the repository and run the following commands in the directory :
 
 ```bash
 virtualenv env
@@ -18,9 +18,10 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-In your browser open `localhost:8000/account/login`
+Make sure to add a superuser before starting your app by running :
+`python manage.py createsuperuser`
 
-(If you do no have pipenv installed, install it into your system by running `pip install pipenv` )
+In your browser open `localhost:8000/account/login`
 
 ### Note :
 To add new users, go to  `http://localhost:8000/admin`
