@@ -19,5 +19,7 @@ python manage.py runserver
 
 In your browser open `localhost:8000/account/login`
 
+(If you do no have pipenv installed, install it into your system by running `pip install pipenv` )
+
 ### Note :
 To add new users, go to  `http://localhost:8000/admin`
